@@ -344,7 +344,7 @@ footer {
     padding: 0px;
     }
     header, main{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 20px 0px 20px;
         padding: 0px;
     }
 
@@ -368,7 +368,7 @@ footer {
     }
 
     .description {
-        padding: 0px 15px 0px 15px;
+        padding: 0px 30px 0px 30px;
         text-align: center;
     }
 
@@ -403,7 +403,7 @@ footer {
     }
 
     .mar-para, .mar-heading {
-        padding: 0px 15px 0px 15px;
+        padding: 0px 30px 0px 30px;
     }
 
     .mar-heading {
@@ -411,6 +411,27 @@ footer {
     }
 
     .button-style-2 {
+        text-decoration: none;
+        color: white;
+        background-color: #E02C6D;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
         margin: 0px 23%;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    .button-style-2:hover {
+        text-decoration: none;
+        color: #E02C6D;
+        background-color: white;
+        border: 2px solid #E02C6D;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        margin: 0px 23%;
+        padding: 10px 20px;
+        border-radius: 10px;
     }
 }
